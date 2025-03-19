@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.marsphotos"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.marsphotos"
@@ -54,6 +54,10 @@ android {
 
 dependencies {
     implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.activity:activity:1.10.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
